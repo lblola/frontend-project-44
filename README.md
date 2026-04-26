@@ -1,3 +1,32 @@
+# Brain Games
+
+Это учебный проект с набором консольных игр на JavaScript.
+
+Программа предлагает пользователю пройти несколько логических и математических игр:
+- Проверка числа на чётность
+- Калькулятор
+- Поиск наибольшего общего делителя (НОД)
+- Поиск пропущенного числа в арифметической прогрессии
+- Проверка числа на простоту
+
+Каждая игра работает через терминал.  
+Для победы нужно правильно ответить на 3 вопроса подряд.  
+Если пользователь ошибается, игра завершается и предлагает попробовать снова.
+
+## Minimum Requirements
+
+- Node.js v.18+
+- npm v.8+
+- Git
+
+## Installation
+
+### Clone the repository
+
+```bash
+git clone https://github.com/lblola/frontend-project-44.git
+cd frontend-project-44
+
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/lblola/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/lblola/frontend-project-44/actions)
 
