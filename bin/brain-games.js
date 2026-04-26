@@ -1,1 +1,3 @@
-console.log('Welcome to the Brain Games!');
+import runCli from '../src/cli.js';
+
+runCli();
