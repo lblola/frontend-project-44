@@ -8,3 +8,6 @@ https://asciinema.org/connect/c8279520-09a1-47da-982b-ff6639cae1ff
 
 ### Calc 
 https://asciinema.org/a/JJhTKmLvIc2LuX3h
+
+### gcd
+https://asciinema.org/a/mrv5PIMH1Cg1mvMd
