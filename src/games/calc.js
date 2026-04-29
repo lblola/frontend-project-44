@@ -1,11 +1,12 @@
 import runGame from '../index.js'
+import getRandomNumber from '../utils.js'
 
 const description = 'What is the result of the expression?'
 
-const getRandomNumber = () => Math.floor(Math.random() * 100)
+const operations = ['+', '-', '*']
+
 const getRandomOperation = () => {
-  const operations = ['+', '-', '*']
-  const randomIndex = Math.floor(Math.random() * operations.length)
+  const randomIndex = getRandomNumber(0, operations.length - 1)
 
   return operations[randomIndex]
 }
@@ -24,8 +25,8 @@ const calculate = (number1, number2, operation) => {
 }
 
 const generateRound = () => {
-  const number1 = getRandomNumber()
-  const number2 = getRandomNumber()
+  const number1 = getRandomNumber(1, 100)
+  const number2 = getRandomNumber(1, 100)
   const operation = getRandomOperation()
 
   const question = `${number1} ${operation} ${number2}`
